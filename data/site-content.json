@@ -2,157 +2,277 @@
   "profile": {
     "name": "Sanchayan Saha",
     "firstName": "Sanchayan",
-    "title": "Writer first. Science student by training. Coder when structure demands it.",
+    "title": "Writer first. Obsessive reader. Science-trained mind with unusual intellectual range.",
     "highlights": [
       {
         "label": "Age",
         "value": "19"
       },
       {
-        "label": "Foundation",
-        "value": "Strong academic background in science"
+        "label": "Academic base",
+        "value": "Science training with a bias toward rigor, structure, and precision"
       },
       {
-        "label": "Primary strength",
-        "value": "Compelling writing across disciplines and tones"
+        "label": "Reading depth",
+        "value": "200+ books across literature, philosophy, economics, history, politics, and criticism"
       },
       {
-        "label": "Reading life",
-        "value": "200+ books across literature, economics, philosophy, history, and ideas"
+        "label": "Operational range",
+        "value": "Can move between essays, argument, strategy, scripts, and research-backed writing"
       }
     ]
   },
   "photo": {
     "src": "./assets/profile-placeholder.svg",
-    "alt": "Editable placeholder portrait for Sanchayan Saha"
+    "alt": "Editable placeholder portrait for Sanchayan Saha",
+    "label": "Replace anytime",
+    "note": "This image is intentionally a placeholder. Swap the file in assets and update photo.src in the JSON when a real portrait is ready."
   },
   "hero": {
-    "eyebrow": "Personal portfolio",
-    "summary": "Sanchayan Saha is a young mind with uncommon range: a disciplined science student, a part-time coder, and above all a writer whose natural medium is clear, forceful language. He brings reading depth, intellectual seriousness, and elegant persuasion to everything he touches.",
+    "eyebrow": "Portfolio v2",
+    "lead": "A portfolio for writing-led work that needs intelligence, control, and real reading behind it.",
+    "summary": "I write from a strange but useful combination: literary instinct, scientific discipline, and a reading life broad enough to keep language from becoming thin. The result is prose that can think, persuade, and carry weight without sounding inflated.",
+    "primaryCta": "Write to me",
+    "secondaryCta": "Read the sample work",
     "stats": [
       {
         "value": "200+",
-        "label": "books read with seriousness, not for display"
+        "label": "books seriously read",
+        "detail": "Not as aesthetic background, but as apprenticeship in judgment, style, and complexity."
       },
       {
         "value": "Science",
-        "label": "training that sharpens rigor, patience, and analytical precision"
+        "label": "training in rigor",
+        "detail": "Comfort with difficult material, disciplined reasoning, and method over hand-waving."
       },
       {
-        "value": "Writer",
-        "label": "identity rooted in style, thought, and persuasive clarity"
+        "value": "Code-literate",
+        "label": "structure-aware",
+        "detail": "Enough technical fluency to write clearly about systems, products, logic, and process."
       }
     ],
     "badges": [
-      "Essayist's instinct",
-      "Research-driven",
-      "Elegant persuasion",
+      "Essayistic intelligence",
+      "Research-backed clarity",
+      "Controlled tone",
       "Cross-domain fluency"
     ]
   },
-  "about": "He works from an unusual center of gravity. Numbers do not intimidate him, but neither do ideas. He reads deeply, writes cleanly, and thinks across boundaries. That combination makes him effective in places where most people lean too hard on jargon, sentiment, or speed. His advantage is not noise. It is range with control.",
-  "writing": {
-    "promise": "Whether the assignment calls for literary sensitivity, strategic persuasion, explanatory clarity, or sharp editorial framing, Sanchayan writes with a tone that feels considered rather than manufactured. His work aims to sound intelligent, alive, and exact.",
-    "cards": [
+  "positioning": {
+    "lines": [
+      "Writer before personal brand",
+      "Reader before performer",
+      "Range without dilution"
+    ],
+    "quote": "I am interested in writing that can survive a second reading."
+  },
+  "proof": {
+    "title": "Academic seriousness, reading depth, tonal versatility, and enough technical literacy to write with structure as well as style.",
+    "items": [
       {
-        "title": "Persuasive writing",
-        "body": "Copy, personal branding, and argumentation shaped to move the reader without sounding inflated."
+        "value": "Science-led",
+        "label": "Academic seriousness",
+        "detail": "A habits-of-mind advantage: patience, analytical discipline, and low tolerance for sloppy claims."
       },
       {
-        "title": "Long-form thinking",
-        "body": "Essays and reflective writing that hold complexity together with rhythm, structure, and restraint."
+        "value": "200+",
+        "label": "Books with breadth",
+        "detail": "Literature, economics, philosophy, history, political thought, and cultural analysis."
       },
       {
-        "title": "Research synthesis",
-        "body": "Dense material translated into prose that remains lucid, credible, and memorable."
+        "value": "Multi-voice",
+        "label": "Versatile writing range",
+        "detail": "Can shift from reflective essay to script, copy, article, summary, or analytical prose."
       },
       {
-        "title": "Adaptive voice",
-        "body": "Comfortable shifting between literary, academic, editorial, and modern internet-native registers."
+        "value": "Web-aware",
+        "label": "Coding literacy",
+        "detail": "Comfortable with code-adjacent thinking, digital structure, and presentation systems."
       }
     ]
   },
-  "background": {
-    "education": [
+  "about": {
+    "heading": "A writer shaped by difficult books, scientific discipline, and a refusal to sound generic.",
+    "intro": "The point is not to perform intelligence. The point is to make prose precise enough to think with and strong enough to carry conviction.",
+    "body": "Most writing collapses for one of two reasons: it is either all posture and no thought, or all information and no style. I am interested in the harder middle. My best work comes from sustained reading, careful arrangement, and a sense that every sentence should earn its place. I care about rhythm, argument, architecture, and tonal control. That makes me useful across forms: essays that can hold tension, research summaries that remain lucid, scripts that move cleanly, and copy that persuades without sounding desperate.",
+    "quoteLines": [
+      "Broad reading is not decoration. It sharpens taste, proportion, and judgment.",
+      "Good prose should feel inevitable after the fact, not ornate while it is happening."
+    ]
+  },
+  "services": {
+    "heading": "Writing across formats, with the same standard of clarity and control.",
+    "intro": "The categories below are practical rather than ornamental. They describe the kinds of briefs I can handle well and the tonal range I can sustain.",
+    "categories": [
       {
-        "title": "Science student",
-        "subtitle": "Academic foundation",
-        "body": "Built on disciplined study, conceptual understanding, and respect for intellectual rigor."
+        "title": "Essays and thought pieces",
+        "description": "Long-form writing that balances reflection, argument, and style without losing coherence.",
+        "items": [
+          "Personal essays",
+          "Cultural criticism",
+          "Thought pieces",
+          "Analytical commentary"
+        ]
       },
       {
-        "title": "Part-time coder",
-        "subtitle": "Practical capability",
-        "body": "Uses code as a tool for structure, presentation, and execution when ideas need to become systems."
+        "title": "Articles and research summaries",
+        "description": "Dense material translated into readable prose that preserves complexity instead of flattening it.",
+        "items": [
+          "Explainer articles",
+          "Research summaries",
+          "Academic-style writing",
+          "Synthesis and briefing"
+        ]
+      },
+      {
+        "title": "Scripts and storytelling",
+        "description": "Narrative movement, clean pacing, and language shaped for voice, scene, and attention.",
+        "items": [
+          "Video scripts",
+          "Narrative scripts",
+          "Story development",
+          "Character-led scenes"
+        ]
+      },
+      {
+        "title": "Brand and strategic copy",
+        "description": "Brand language for people, products, or ideas that want sharpness rather than noise.",
+        "items": [
+          "Brand copy",
+          "Founder positioning",
+          "Landing page copy",
+          "Editorial messaging"
+        ]
+      },
+      {
+        "title": "Argument and analysis",
+        "description": "Writing that needs reasoning, structure, and an ability to hold multiple variables at once.",
+        "items": [
+          "Analysis pieces",
+          "Opinion writing",
+          "Framework-based writing",
+          "Comparative argument"
+        ]
+      },
+      {
+        "title": "Hybrid briefs",
+        "description": "The strongest work often lives between categories. I can combine literary tone, strategy, and research when the brief requires it.",
+        "items": [
+          "Voice development",
+          "Narrative strategy",
+          "Concept framing",
+          "Cross-domain projects"
+        ]
       }
-    ],
-    "achievements": [
+    ]
+  },
+  "works": {
+    "heading": "Three polished sample pieces that signal range.",
+    "intro": "These are sample or placeholder pieces for presentation purposes, not claims of publication. They are designed to show voice, structure, and the kinds of assignments I can plausibly handle well.",
+    "items": [
       {
-        "title": "Serious reader across domains",
-        "subtitle": "Intellectual credibility",
-        "body": "Has read more than 200 books spanning fiction, economics, philosophy, political thought, and cultural criticism."
+        "status": "Sample piece",
+        "title": "The Reader as Instrument",
+        "format": "Essay",
+        "summary": "A reflective essay on why serious reading changes not just taste, but the structure of perception itself.",
+        "excerpt": "A person is partly made of what he has learned to notice. Books matter because they alter the granularity of attention; they teach you where to look, what to distrust, and which forms of simplification to resist.",
+        "tags": [
+          "Literary essay",
+          "Ideas",
+          "Voice-driven"
+        ]
       },
       {
-        "title": "Writer with range",
-        "subtitle": "Creative and strategic edge",
-        "body": "Comfortable writing for beauty, persuasion, clarity, and insight without collapsing into cliché."
+        "status": "Placeholder feature",
+        "title": "What Scientific Training Does to a Writer",
+        "format": "Article",
+        "summary": "A clean analytical article on the advantages of scientific discipline in argument, explanation, and intellectual honesty.",
+        "excerpt": "Science does not automatically make prose elegant, but it does make certain evasions harder. It trains the mind to respect sequence, evidence, and the difference between suggestion and demonstration.",
+        "tags": [
+          "Analysis",
+          "Research tone",
+          "Explanatory writing"
+        ]
       },
       {
-        "title": "Early-stage but unusually well-formed",
-        "subtitle": "Personal profile",
-        "body": "Young in age, but already defined by seriousness, taste, and an appetite for difficult material."
+        "status": "Sample script",
+        "title": "Cities, Screens, and Solitude",
+        "format": "Script",
+        "summary": "A short script concept that blends cultural observation with narrative atmosphere and spoken cadence.",
+        "excerpt": "The city was loud in all the obvious ways, but the real noise was subtler: a thousand small performances occurring at once, each one asking to be mistaken for a life.",
+        "tags": [
+          "Scriptwriting",
+          "Storytelling",
+          "Atmosphere"
+        ]
       }
     ]
   },
   "influences": {
-    "statement": "His reading is not decorative. It shapes judgment. The shelf runs from literature and existential thought to economics and capitalism, from Satyajit Ray's clarity of vision to writers who understood alienation, moral conflict, absurdity, and power.",
-    "cards": [
+    "heading": "Grouped influences, not a decorative bookshelf.",
+    "intro": "The reading life here is organized by what it sharpened: moral seriousness, structural thinking, psychological depth, and attention to systems.",
+    "statement": "My shelf is useful to me because it creates pressure against lazy language. Literature teaches human complexity, philosophy teaches terms of precision, economics teaches systems, and cinema teaches what can be implied rather than explained.",
+    "groups": [
       {
-        "name": "Satyajit Ray",
-        "domain": "Cinema, storytelling, intelligence",
-        "impact": "A model of precision, atmosphere, and the quiet authority that comes from seeing human beings clearly."
+        "title": "Novelists of pressure and conscience",
+        "description": "Writers who understood interior conflict, moral consequence, and the instability of the self.",
+        "items": [
+          {
+            "name": "Fyodor Dostoevsky",
+            "note": "Psychology, guilt, conscience, and spiritual tension."
+          },
+          {
+            "name": "Franz Kafka",
+            "note": "Systems, alienation, invisible pressure, bureaucratic dread."
+          },
+          {
+            "name": "Albert Camus",
+            "note": "Lucidity, restraint, existential clarity, and tonal economy."
+          }
+        ]
       },
       {
-        "name": "Fyodor Dostoevsky",
-        "domain": "Psychology, conscience, moral depth",
-        "impact": "An influence in how conflict is examined from the inside rather than narrated from a safe distance."
+        "title": "Clarity, image, and form",
+        "description": "Influences that sharpen control, atmosphere, and the art of saying more with less.",
+        "items": [
+          {
+            "name": "Satyajit Ray",
+            "note": "Narrative economy, human observation, elegance without ornament."
+          },
+          {
+            "name": "Great cinema and criticism",
+            "note": "Framing, pacing, subtext, and the discipline of visual thinking."
+          },
+          {
+            "name": "Literary non-fiction",
+            "note": "Clean intelligence in sentences and structure."
+          }
+        ]
       },
       {
-        "name": "Albert Camus",
-        "domain": "Existential clarity, style, restraint",
-        "impact": "A reminder that lucidity can carry emotional weight without performance or sentimental excess."
-      },
-      {
-        "name": "Franz Kafka",
-        "domain": "Alienation, power, inner tension",
-        "impact": "Present in the sensitivity to absurd systems, invisible pressure, and the moods beneath modern life."
-      },
-      {
-        "name": "Economics and capitalism",
-        "domain": "Markets, incentives, systems",
-        "impact": "Not merely as theory, but as a lens for understanding institutions, ambition, risk, and material reality."
-      },
-      {
-        "name": "Broad literary and intellectual tradition",
-        "domain": "Books as apprenticeship",
-        "impact": "A reading life that crosses genres and disciplines, turning curiosity into judgment and style into substance."
+        "title": "Systems, power, and material reality",
+        "description": "Books and ideas that help connect language to institutions, incentives, and real-world stakes.",
+        "items": [
+          {
+            "name": "Economics and capitalism",
+            "note": "Markets, incentives, ambition, and structural tradeoffs."
+          },
+          {
+            "name": "Political thought",
+            "note": "Power, ideology, institutions, and public reasoning."
+          },
+          {
+            "name": "History and cultural analysis",
+            "note": "Context, contingency, and the long shape of ideas."
+          }
+        ]
       }
     ]
   },
-  "skills": [
-    "Persuasive writing",
-    "Essay writing",
-    "Research and synthesis",
-    "Editorial judgment",
-    "Copywriting",
-    "Cross-domain reading",
-    "Structured thinking",
-    "Basic web development",
-    "Scientific discipline",
-    "Cultural literacy"
-  ],
   "contact": {
     "email": "sahasanchayan44@gmail.com",
-    "blurb": "If the brief demands intelligence, style, sensitivity, and conviction, this is the right inbox.",
-    "meta": "Available for writing-led collaborations, thoughtful freelance work, and intellectually serious projects."
+    "heading": "For essays, articles, scripts, sharp copy, or intellectually serious collaborations.",
+    "blurb": "If the work needs style, range, and actual thought behind the sentences, send the brief.",
+    "meta": "Available for freelance writing, editorial projects, selective collaborations, and writing-led digital work."
   }
 }

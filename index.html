@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sanchayan Saha | Writer, Reader, Builder</title>
+    <title>Sanchayan Saha | Writer, Reader, Analyst</title>
     <meta
       name="description"
-      content="A refined personal portfolio for Sanchayan Saha, a young writer, science student, and intellectually restless reader."
+      content="A premium portfolio for Sanchayan Saha: writer first, obsessive reader, science-trained thinker, and coding-literate analyst."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,13 +21,15 @@
       <div class="ambient ambient-one"></div>
       <div class="ambient ambient-two"></div>
       <div class="grid-overlay"></div>
+      <div class="noise-overlay"></div>
 
       <header class="topbar glass">
         <a class="brand" href="#hero">Sanchayan Saha</a>
         <nav class="nav">
           <a href="#about">About</a>
-          <a href="#writing">Writing</a>
-          <a href="#background">Background</a>
+          <a href="#proof">Proof</a>
+          <a href="#services">Services</a>
+          <a href="#works">Works</a>
           <a href="#influences">Influences</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -38,93 +40,103 @@
 
     <template id="portfolio-template">
       <section class="hero section reveal" id="hero">
-        <div class="hero-copy glass">
-          <p class="eyebrow" data-field="eyebrow"></p>
+        <div class="hero-copy glass premium-panel">
+          <p class="eyebrow" data-field="heroEyebrow"></p>
+          <p class="hero-lead" data-field="heroLead"></p>
           <h1 data-field="name"></h1>
           <p class="hero-title" data-field="title"></p>
-          <p class="hero-summary" data-field="summary"></p>
+          <p class="hero-summary" data-field="heroSummary"></p>
+          <div class="positioning-lines" data-list="positioningLines"></div>
           <div class="hero-actions">
-            <a class="button button-primary" data-field="emailLink" href="">Write to me</a>
-            <a class="button button-secondary" href="#writing">Explore the work</a>
+            <a class="button button-primary" data-field="emailLink" href=""></a>
+            <a class="button button-secondary" href="#works" data-field="secondaryCta"></a>
           </div>
-          <div class="hero-metrics" data-list="stats"></div>
+          <div class="hero-metrics" data-list="heroStats"></div>
         </div>
 
-        <aside class="hero-portrait glass">
-          <div class="portrait-frame">
-            <img data-field="photo" alt="Portrait placeholder for Sanchayan Saha" />
+        <aside class="hero-side">
+          <div class="hero-portrait glass premium-panel">
+            <div class="panel-topline">
+              <span>Photo Placeholder</span>
+              <span data-field="photoLabel"></span>
+            </div>
+            <div class="portrait-frame">
+              <img data-field="photo" alt="Portrait placeholder for Sanchayan Saha" />
+            </div>
+            <p class="portrait-note" data-field="photoNote"></p>
+            <div class="hero-badge-row" data-list="heroBadges"></div>
           </div>
-          <p class="portrait-note">
-            Replace the image in <span>assets/</span> and update the JSON when ready.
-          </p>
-          <div class="hero-badge-row" data-list="badges"></div>
+          <div class="hero-quote glass premium-panel">
+            <p class="quote-label">Positioning</p>
+            <p class="quote-copy" data-field="positioningQuote"></p>
+          </div>
         </aside>
+      </section>
+
+      <section class="section reveal" id="proof">
+        <div class="proof-strip glass">
+          <div class="proof-heading">
+            <p class="eyebrow">Selected strengths</p>
+            <h2 data-field="proofTitle"></h2>
+          </div>
+          <div class="proof-grid" data-list="proofItems"></div>
+        </div>
       </section>
 
       <section class="section reveal" id="about">
         <div class="section-heading">
           <p class="eyebrow">About</p>
-          <h2>The rare combination of scientific discipline and literary instinct.</h2>
+          <h2 data-field="aboutHeading"></h2>
+          <p class="section-intro" data-field="aboutIntro"></p>
         </div>
-        <div class="two-column">
-          <article class="glass prose-card" data-field="about"></article>
-          <aside class="glass detail-card">
-            <p class="detail-label">Profile</p>
-            <div class="detail-list" data-list="profileHighlights"></div>
+        <div class="about-grid">
+          <article class="glass prose-card premium-panel" data-field="aboutBody"></article>
+          <aside class="about-side">
+            <div class="glass detail-card premium-panel">
+              <p class="detail-label">Profile</p>
+              <div class="detail-list" data-list="profileHighlights"></div>
+            </div>
+            <div class="glass quote-stack premium-panel" data-list="quoteLines"></div>
           </aside>
         </div>
       </section>
 
-      <section class="section reveal" id="writing">
+      <section class="section reveal" id="services">
         <div class="section-heading">
-          <p class="eyebrow">Writing</p>
-          <h2>Language treated as craft, persuasion, and intellectual architecture.</h2>
+          <p class="eyebrow">What I can write</p>
+          <h2 data-field="servicesHeading"></h2>
+          <p class="section-intro" data-field="servicesIntro"></p>
         </div>
-        <div class="writing-grid">
-          <article class="glass feature-card">
-            <p class="feature-label">Core promise</p>
-            <p class="feature-copy" data-field="writingPromise"></p>
-          </article>
-          <div class="card-grid" data-list="writingCards"></div>
-        </div>
+        <div class="services-grid" data-list="serviceCategories"></div>
       </section>
 
-      <section class="section reveal" id="background">
+      <section class="section reveal" id="works">
         <div class="section-heading">
-          <p class="eyebrow">Background</p>
-          <h2>Academic seriousness, broad reading, and practical execution.</h2>
+          <p class="eyebrow">Selected works</p>
+          <h2 data-field="worksHeading"></h2>
+          <p class="section-intro" data-field="worksIntro"></p>
         </div>
-        <div class="timeline-grid">
-          <div class="glass timeline-card" data-list="education"></div>
-          <div class="glass timeline-card" data-list="achievements"></div>
-        </div>
+        <div class="works-grid" data-list="works"></div>
       </section>
 
       <section class="section reveal" id="influences">
         <div class="section-heading">
           <p class="eyebrow">Influences</p>
-          <h2>A mind shaped by literature, cinema, economics, and difficult questions.</h2>
+          <h2 data-field="influencesHeading"></h2>
+          <p class="section-intro" data-field="influencesIntro"></p>
         </div>
-        <div class="influence-trophies" data-list="influences"></div>
-        <div class="glass quote-panel">
+        <div class="influence-groups" data-list="influenceGroups"></div>
+        <div class="glass quote-panel premium-panel">
           <p class="quote-label">Reading life</p>
           <p class="quote-copy" data-field="booksStatement"></p>
         </div>
       </section>
 
-      <section class="section reveal" id="skills">
-        <div class="section-heading">
-          <p class="eyebrow">Skills</p>
-          <h2>Built on words first, supported by structure, research, and code.</h2>
-        </div>
-        <div class="skills-wrap glass" data-list="skills"></div>
-      </section>
-
       <section class="section reveal" id="contact">
-        <div class="contact-panel glass">
+        <div class="contact-panel glass premium-panel">
           <div>
             <p class="eyebrow">Contact</p>
-            <h2>For essays, copy, ideas, collaborations, or serious conversations.</h2>
+            <h2 data-field="contactHeading"></h2>
             <p class="contact-copy" data-field="contactBlurb"></p>
           </div>
           <div class="contact-actions">

@@ -1,6 +1,6 @@
 # Sanchayan Saha Portfolio
 
-A polished single-page personal portfolio built as a lightweight static site.
+A premium single-page portfolio built as a lightweight static site with all main editable copy stored in JSON.
 
 ## Run locally
 
@@ -15,33 +15,40 @@ Then open `http://localhost:4173`.
 
 ## Edit content
 
-Update profile and copy in [`data/site-content.json`](/home/sanchayan/portfolio/data/site-content.json).
+Update profile, hero copy, proof points, services, sample works, influences, and contact info in [data/site-content.json](/home/sanchayan/portfolio/data/site-content.json).
 
-You can edit:
+Main editable sections:
 
-- name, title, age, and hero text
-- education, achievements, and writing focus
-- influence cards and highlighted authors
-- skills, stats, and contact details
+- `profile`: name, title, profile highlights
+- `photo`: placeholder image path, alt text, and replacement note
+- `hero`: lead, summary, CTA labels, stats, and badges
+- `positioning`: short self-positioning lines and quote
+- `proof`: selected strengths strip
+- `about`: heading, intro, body, and quote lines
+- `services`: writing categories and service bullets
+- `works`: sample or placeholder writing cards
+- `influences`: grouped book and influence categories
+- `contact`: heading, blurb, email, and availability note
 
 ## Change the photo
 
-The current placeholder image lives at [`assets/profile-placeholder.svg`](/home/sanchayan/portfolio/assets/profile-placeholder.svg).
+The current placeholder image lives at [assets/profile-placeholder.svg](/home/sanchayan/portfolio/assets/profile-placeholder.svg).
 
 To replace it:
 
 1. Add your preferred image file to `/home/sanchayan/portfolio/assets/`
-2. Update `photo.src` in [`data/site-content.json`](/home/sanchayan/portfolio/data/site-content.json)
+2. Update `photo.src` in [data/site-content.json](/home/sanchayan/portfolio/data/site-content.json)
 
 ## File structure
 
-- [`index.html`](/home/sanchayan/portfolio/index.html): page shell
-- [`styles.css`](/home/sanchayan/portfolio/styles.css): theme, layout, animation, and component styling
-- [`script.js`](/home/sanchayan/portfolio/script.js): data loading and rendering
-- [`data/site-content.json`](/home/sanchayan/portfolio/data/site-content.json): editable content
-- [`assets/profile-placeholder.svg`](/home/sanchayan/portfolio/assets/profile-placeholder.svg): editable image placeholder
+- [index.html](/home/sanchayan/portfolio/index.html): page shell and section template
+- [styles.css](/home/sanchayan/portfolio/styles.css): glassmorphism theme, layout, components, and motion
+- [script.js](/home/sanchayan/portfolio/script.js): JSON loading and UI rendering
+- [data/site-content.json](/home/sanchayan/portfolio/data/site-content.json): editable portfolio content
+- [assets/profile-placeholder.svg](/home/sanchayan/portfolio/assets/profile-placeholder.svg): placeholder portrait
 
 ## Notes
 
 - No build step is required.
-- No paid services or external API keys are used.
+- No photo generation or external content fetching is used.
+- If you change the JSON schema, update both [script.js](/home/sanchayan/portfolio/script.js) and this README.

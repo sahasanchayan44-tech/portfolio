@@ -3,10 +3,24 @@ const template = document.querySelector("#portfolio-template");
 
 const dataPath = "./data/site-content.json";
 
-const createMetric = ({ value, label }) => {
-  const metric = document.createElement("div");
+const createMetric = ({ value, label, detail }) => {
+  const metric = document.createElement("article");
   metric.className = "metric";
-  metric.innerHTML = `<strong>${value}</strong><span>${label}</span>`;
+
+  const valueEl = document.createElement("strong");
+  valueEl.textContent = value;
+
+  const labelEl = document.createElement("span");
+  labelEl.textContent = label;
+
+  metric.append(valueEl, labelEl);
+
+  if (detail) {
+    const detailEl = document.createElement("p");
+    detailEl.textContent = detail;
+    metric.appendChild(detailEl);
+  }
+
   return metric;
 };
 
@@ -20,52 +34,154 @@ const createBadge = (text, className = "badge") => {
 const createProfileLine = ({ label, value }) => {
   const line = document.createElement("div");
   line.className = "profile-line";
-  line.innerHTML = `<strong>${label}</strong><span>${value}</span>`;
+
+  const labelEl = document.createElement("strong");
+  labelEl.textContent = label;
+
+  const valueEl = document.createElement("span");
+  valueEl.textContent = value;
+
+  line.append(labelEl, valueEl);
   return line;
 };
 
-const createMiniCard = ({ title, body }) => {
+const createProofCard = ({ value, label, detail }) => {
   const card = document.createElement("article");
-  card.className = "mini-card";
-  card.innerHTML = `<h3>${title}</h3><p>${body}</p>`;
+  card.className = "proof-card";
+
+  const valueEl = document.createElement("strong");
+  valueEl.textContent = value;
+
+  const labelEl = document.createElement("h3");
+  labelEl.textContent = label;
+
+  const detailEl = document.createElement("p");
+  detailEl.textContent = detail;
+
+  card.append(valueEl, labelEl, detailEl);
   return card;
 };
 
-const createTimelineItem = ({ title, subtitle, body }) => {
-  const item = document.createElement("article");
-  item.className = "timeline-item";
-  item.innerHTML = `<span>${subtitle}</span><h3>${title}</h3><p>${body}</p>`;
-  return item;
+const createQuoteLine = (text) => {
+  const quote = document.createElement("p");
+  quote.className = "quote-line";
+  quote.textContent = text;
+  return quote;
 };
 
-const createInfluenceCard = ({ name, domain, impact }) => {
+const createServiceCard = ({ title, description, items }) => {
   const card = document.createElement("article");
-  card.className = "influence-card";
-  card.innerHTML = `
-    <h3>${name}</h3>
-    <p>${impact}</p>
-    <span class="influence-meta">${domain}</span>
-  `;
+  card.className = "service-card glass premium-panel";
+
+  const titleEl = document.createElement("h3");
+  titleEl.textContent = title;
+
+  const descriptionEl = document.createElement("p");
+  descriptionEl.className = "service-description";
+  descriptionEl.textContent = description;
+
+  const itemsWrap = document.createElement("div");
+  itemsWrap.className = "tag-list";
+  items.forEach((item) => itemsWrap.appendChild(createBadge(item, "skill-pill")));
+
+  card.append(titleEl, descriptionEl, itemsWrap);
   return card;
+};
+
+const createWorkCard = ({ status, title, format, summary, excerpt, tags }) => {
+  const card = document.createElement("article");
+  card.className = "work-card glass premium-panel";
+
+  const meta = document.createElement("div");
+  meta.className = "work-meta";
+  meta.append(createBadge(status, "status-pill"), createBadge(format, "format-pill"));
+
+  const titleEl = document.createElement("h3");
+  titleEl.textContent = title;
+
+  const summaryEl = document.createElement("p");
+  summaryEl.className = "work-summary";
+  summaryEl.textContent = summary;
+
+  const excerptEl = document.createElement("p");
+  excerptEl.className = "work-excerpt";
+  excerptEl.textContent = excerpt;
+
+  const tagsWrap = document.createElement("div");
+  tagsWrap.className = "tag-list";
+  tags.forEach((tag) => tagsWrap.appendChild(createBadge(tag, "badge subtle-badge")));
+
+  card.append(meta, titleEl, summaryEl, excerptEl, tagsWrap);
+  return card;
+};
+
+const createInfluenceGroup = ({ title, description, items }) => {
+  const group = document.createElement("article");
+  group.className = "influence-group glass premium-panel";
+
+  const titleEl = document.createElement("h3");
+  titleEl.textContent = title;
+
+  const descriptionEl = document.createElement("p");
+  descriptionEl.className = "influence-description";
+  descriptionEl.textContent = description;
+
+  const itemsWrap = document.createElement("div");
+  itemsWrap.className = "influence-list";
+  items.forEach((item) => {
+    const entry = document.createElement("div");
+    entry.className = "influence-item";
+
+    const name = document.createElement("strong");
+    name.textContent = item.name;
+
+    const note = document.createElement("span");
+    note.textContent = item.note;
+
+    entry.append(name, note);
+    itemsWrap.appendChild(entry);
+  });
+
+  group.append(titleEl, descriptionEl, itemsWrap);
+  return group;
+};
+
+const setText = (fragment, selector, value) => {
+  const node = fragment.querySelector(selector);
+  node.textContent = value;
 };
 
 const hydrate = (content) => {
   const fragment = template.content.cloneNode(true);
 
-  fragment.querySelector('[data-field="eyebrow"]').textContent = content.hero.eyebrow;
-  fragment.querySelector('[data-field="name"]').textContent = content.profile.name;
-  fragment.querySelector('[data-field="title"]').textContent = content.profile.title;
-  fragment.querySelector('[data-field="summary"]').textContent = content.hero.summary;
-  fragment.querySelector('[data-field="about"]').textContent = content.about;
-  fragment.querySelector('[data-field="writingPromise"]').textContent = content.writing.promise;
-  fragment.querySelector('[data-field="booksStatement"]').textContent = content.influences.statement;
-  fragment.querySelector('[data-field="contactBlurb"]').textContent = content.contact.blurb;
-  fragment.querySelector('[data-field="contactMeta"]').textContent = content.contact.meta;
+  setText(fragment, '[data-field="heroEyebrow"]', content.hero.eyebrow);
+  setText(fragment, '[data-field="heroLead"]', content.hero.lead);
+  setText(fragment, '[data-field="name"]', content.profile.name);
+  setText(fragment, '[data-field="title"]', content.profile.title);
+  setText(fragment, '[data-field="heroSummary"]', content.hero.summary);
+  setText(fragment, '[data-field="photoLabel"]', content.photo.label);
+  setText(fragment, '[data-field="photoNote"]', content.photo.note);
+  setText(fragment, '[data-field="positioningQuote"]', content.positioning.quote);
+  setText(fragment, '[data-field="proofTitle"]', content.proof.title);
+  setText(fragment, '[data-field="aboutHeading"]', content.about.heading);
+  setText(fragment, '[data-field="aboutIntro"]', content.about.intro);
+  setText(fragment, '[data-field="aboutBody"]', content.about.body);
+  setText(fragment, '[data-field="servicesHeading"]', content.services.heading);
+  setText(fragment, '[data-field="servicesIntro"]', content.services.intro);
+  setText(fragment, '[data-field="worksHeading"]', content.works.heading);
+  setText(fragment, '[data-field="worksIntro"]', content.works.intro);
+  setText(fragment, '[data-field="influencesHeading"]', content.influences.heading);
+  setText(fragment, '[data-field="influencesIntro"]', content.influences.intro);
+  setText(fragment, '[data-field="booksStatement"]', content.influences.statement);
+  setText(fragment, '[data-field="contactHeading"]', content.contact.heading);
+  setText(fragment, '[data-field="contactBlurb"]', content.contact.blurb);
+  setText(fragment, '[data-field="contactMeta"]', content.contact.meta);
+  setText(fragment, '[data-field="secondaryCta"]', content.hero.secondaryCta);
 
   const emailLink = `mailto:${content.contact.email}`;
   const heroEmail = fragment.querySelector('[data-field="emailLink"]');
   heroEmail.href = emailLink;
-  heroEmail.textContent = `Email ${content.profile.firstName}`;
+  heroEmail.textContent = content.hero.primaryCta;
 
   const secondaryEmail = fragment.querySelector('[data-field="emailLinkSecondary"]');
   secondaryEmail.href = emailLink;
@@ -75,35 +191,36 @@ const hydrate = (content) => {
   photo.src = content.photo.src;
   photo.alt = content.photo.alt;
 
-  const statsWrap = fragment.querySelector('[data-list="stats"]');
+  const positioningWrap = fragment.querySelector('[data-list="positioningLines"]');
+  content.positioning.lines.forEach((line) => {
+    positioningWrap.appendChild(createBadge(line, "positioning-pill"));
+  });
+
+  const statsWrap = fragment.querySelector('[data-list="heroStats"]');
   content.hero.stats.forEach((item) => statsWrap.appendChild(createMetric(item)));
 
-  const badgeWrap = fragment.querySelector('[data-list="badges"]');
+  const badgeWrap = fragment.querySelector('[data-list="heroBadges"]');
   content.hero.badges.forEach((item) => badgeWrap.appendChild(createBadge(item)));
+
+  const proofWrap = fragment.querySelector('[data-list="proofItems"]');
+  content.proof.items.forEach((item) => proofWrap.appendChild(createProofCard(item)));
 
   const profileWrap = fragment.querySelector('[data-list="profileHighlights"]');
   content.profile.highlights.forEach((item) => profileWrap.appendChild(createProfileLine(item)));
 
-  const writingWrap = fragment.querySelector('[data-list="writingCards"]');
-  content.writing.cards.forEach((item) => writingWrap.appendChild(createMiniCard(item)));
+  const quotesWrap = fragment.querySelector('[data-list="quoteLines"]');
+  content.about.quoteLines.forEach((line) => quotesWrap.appendChild(createQuoteLine(line)));
 
-  const educationWrap = fragment.querySelector('[data-list="education"]');
-  educationWrap.dataset.title = "Education";
-  content.background.education.forEach((item) => educationWrap.appendChild(createTimelineItem(item)));
+  const servicesWrap = fragment.querySelector('[data-list="serviceCategories"]');
+  content.services.categories.forEach((item) => servicesWrap.appendChild(createServiceCard(item)));
 
-  const achievementsWrap = fragment.querySelector('[data-list="achievements"]');
-  achievementsWrap.dataset.title = "Credibility";
-  content.background.achievements.forEach((item) =>
-    achievementsWrap.appendChild(createTimelineItem(item)),
+  const worksWrap = fragment.querySelector('[data-list="works"]');
+  content.works.items.forEach((item) => worksWrap.appendChild(createWorkCard(item)));
+
+  const influencesWrap = fragment.querySelector('[data-list="influenceGroups"]');
+  content.influences.groups.forEach((group) =>
+    influencesWrap.appendChild(createInfluenceGroup(group)),
   );
-
-  const influencesWrap = fragment.querySelector('[data-list="influences"]');
-  content.influences.cards.forEach((item) =>
-    influencesWrap.appendChild(createInfluenceCard(item)),
-  );
-
-  const skillsWrap = fragment.querySelector('[data-list="skills"]');
-  content.skills.forEach((item) => skillsWrap.appendChild(createBadge(item, "skill-pill")));
 
   app.appendChild(fragment);
 
@@ -116,7 +233,7 @@ const hydrate = (content) => {
         }
       });
     },
-    { threshold: 0.18 },
+    { threshold: 0.16 },
   );
 
   document.querySelectorAll(".reveal").forEach((section) => observer.observe(section));
@@ -125,7 +242,7 @@ const hydrate = (content) => {
 const renderError = () => {
   app.innerHTML = `
     <section class="section">
-      <div class="glass contact-panel">
+      <div class="glass contact-panel premium-panel">
         <div>
           <p class="eyebrow">Content error</p>
           <h2>The portfolio data could not be loaded.</h2>
