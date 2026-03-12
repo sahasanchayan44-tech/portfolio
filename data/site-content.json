@@ -1,0 +1,158 @@
+{
+  "profile": {
+    "name": "Sanchayan Saha",
+    "firstName": "Sanchayan",
+    "title": "Writer first. Science student by training. Coder when structure demands it.",
+    "highlights": [
+      {
+        "label": "Age",
+        "value": "19"
+      },
+      {
+        "label": "Foundation",
+        "value": "Strong academic background in science"
+      },
+      {
+        "label": "Primary strength",
+        "value": "Compelling writing across disciplines and tones"
+      },
+      {
+        "label": "Reading life",
+        "value": "200+ books across literature, economics, philosophy, history, and ideas"
+      }
+    ]
+  },
+  "photo": {
+    "src": "./assets/profile-placeholder.svg",
+    "alt": "Editable placeholder portrait for Sanchayan Saha"
+  },
+  "hero": {
+    "eyebrow": "Personal portfolio",
+    "summary": "Sanchayan Saha is a young mind with uncommon range: a disciplined science student, a part-time coder, and above all a writer whose natural medium is clear, forceful language. He brings reading depth, intellectual seriousness, and elegant persuasion to everything he touches.",
+    "stats": [
+      {
+        "value": "200+",
+        "label": "books read with seriousness, not for display"
+      },
+      {
+        "value": "Science",
+        "label": "training that sharpens rigor, patience, and analytical precision"
+      },
+      {
+        "value": "Writer",
+        "label": "identity rooted in style, thought, and persuasive clarity"
+      }
+    ],
+    "badges": [
+      "Essayist's instinct",
+      "Research-driven",
+      "Elegant persuasion",
+      "Cross-domain fluency"
+    ]
+  },
+  "about": "He works from an unusual center of gravity. Numbers do not intimidate him, but neither do ideas. He reads deeply, writes cleanly, and thinks across boundaries. That combination makes him effective in places where most people lean too hard on jargon, sentiment, or speed. His advantage is not noise. It is range with control.",
+  "writing": {
+    "promise": "Whether the assignment calls for literary sensitivity, strategic persuasion, explanatory clarity, or sharp editorial framing, Sanchayan writes with a tone that feels considered rather than manufactured. His work aims to sound intelligent, alive, and exact.",
+    "cards": [
+      {
+        "title": "Persuasive writing",
+        "body": "Copy, personal branding, and argumentation shaped to move the reader without sounding inflated."
+      },
+      {
+        "title": "Long-form thinking",
+        "body": "Essays and reflective writing that hold complexity together with rhythm, structure, and restraint."
+      },
+      {
+        "title": "Research synthesis",
+        "body": "Dense material translated into prose that remains lucid, credible, and memorable."
+      },
+      {
+        "title": "Adaptive voice",
+        "body": "Comfortable shifting between literary, academic, editorial, and modern internet-native registers."
+      }
+    ]
+  },
+  "background": {
+    "education": [
+      {
+        "title": "Science student",
+        "subtitle": "Academic foundation",
+        "body": "Built on disciplined study, conceptual understanding, and respect for intellectual rigor."
+      },
+      {
+        "title": "Part-time coder",
+        "subtitle": "Practical capability",
+        "body": "Uses code as a tool for structure, presentation, and execution when ideas need to become systems."
+      }
+    ],
+    "achievements": [
+      {
+        "title": "Serious reader across domains",
+        "subtitle": "Intellectual credibility",
+        "body": "Has read more than 200 books spanning fiction, economics, philosophy, political thought, and cultural criticism."
+      },
+      {
+        "title": "Writer with range",
+        "subtitle": "Creative and strategic edge",
+        "body": "Comfortable writing for beauty, persuasion, clarity, and insight without collapsing into cliché."
+      },
+      {
+        "title": "Early-stage but unusually well-formed",
+        "subtitle": "Personal profile",
+        "body": "Young in age, but already defined by seriousness, taste, and an appetite for difficult material."
+      }
+    ]
+  },
+  "influences": {
+    "statement": "His reading is not decorative. It shapes judgment. The shelf runs from literature and existential thought to economics and capitalism, from Satyajit Ray's clarity of vision to writers who understood alienation, moral conflict, absurdity, and power.",
+    "cards": [
+      {
+        "name": "Satyajit Ray",
+        "domain": "Cinema, storytelling, intelligence",
+        "impact": "A model of precision, atmosphere, and the quiet authority that comes from seeing human beings clearly."
+      },
+      {
+        "name": "Fyodor Dostoevsky",
+        "domain": "Psychology, conscience, moral depth",
+        "impact": "An influence in how conflict is examined from the inside rather than narrated from a safe distance."
+      },
+      {
+        "name": "Albert Camus",
+        "domain": "Existential clarity, style, restraint",
+        "impact": "A reminder that lucidity can carry emotional weight without performance or sentimental excess."
+      },
+      {
+        "name": "Franz Kafka",
+        "domain": "Alienation, power, inner tension",
+        "impact": "Present in the sensitivity to absurd systems, invisible pressure, and the moods beneath modern life."
+      },
+      {
+        "name": "Economics and capitalism",
+        "domain": "Markets, incentives, systems",
+        "impact": "Not merely as theory, but as a lens for understanding institutions, ambition, risk, and material reality."
+      },
+      {
+        "name": "Broad literary and intellectual tradition",
+        "domain": "Books as apprenticeship",
+        "impact": "A reading life that crosses genres and disciplines, turning curiosity into judgment and style into substance."
+      }
+    ]
+  },
+  "skills": [
+    "Persuasive writing",
+    "Essay writing",
+    "Research and synthesis",
+    "Editorial judgment",
+    "Copywriting",
+    "Cross-domain reading",
+    "Structured thinking",
+    "Basic web development",
+    "Scientific discipline",
+    "Cultural literacy"
+  ],
+  "contact": {
+    "email": "sahasanchayan44@gmail.com",
+    "blurb": "If the brief demands intelligence, style, sensitivity, and conviction, this is the right inbox.",
+    "meta": "Available for writing-led collaborations, thoughtful freelance work, and intellectually serious projects."
+  }
+}

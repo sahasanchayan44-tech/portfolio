@@ -1,0 +1,15 @@
+<svg width="960" height="1200" viewBox="0 0 960 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="1200" rx="48" fill="#091423"/>
+  <rect x="36" y="36" width="888" height="1128" rx="32" fill="url(#paint0_linear)" stroke="#FFFFFF" stroke-opacity="0.16"/>
+  <circle cx="480" cy="420" r="160" fill="#15283d"/>
+  <path d="M235 945C235 780.972 368.431 648 533 648H427C591.569 648 725 780.972 725 945V1020H235V945Z" fill="#15283d"/>
+  <rect x="112" y="84" width="736" height="64" rx="20" fill="#FFFFFF" fill-opacity="0.06"/>
+  <text x="480" y="107" text-anchor="middle" fill="#DCE8FF" font-size="28" font-family="Arial, sans-serif" letter-spacing="4">PROFILE PLACEHOLDER</text>
+  <text x="480" y="1090" text-anchor="middle" fill="#B1BED3" font-size="28" font-family="Arial, sans-serif">Replace this file or update photo.src in data/site-content.json</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="120" y1="84" x2="820" y2="1130" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#122338"/>
+      <stop offset="1" stop-color="#0D1727"/>
+    </linearGradient>
+  </defs>
+</svg>

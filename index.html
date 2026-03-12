@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanchayan Saha | Writer, Reader, Builder</title>
+    <meta
+      name="description"
+      content="A refined personal portfolio for Sanchayan Saha, a young writer, science student, and intellectually restless reader."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="ambient ambient-one"></div>
+      <div class="ambient ambient-two"></div>
+      <div class="grid-overlay"></div>
+
+      <header class="topbar glass">
+        <a class="brand" href="#hero">Sanchayan Saha</a>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#writing">Writing</a>
+          <a href="#background">Background</a>
+          <a href="#influences">Influences</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="app"></main>
+    </div>
+
+    <template id="portfolio-template">
+      <section class="hero section reveal" id="hero">
+        <div class="hero-copy glass">
+          <p class="eyebrow" data-field="eyebrow"></p>
+          <h1 data-field="name"></h1>
+          <p class="hero-title" data-field="title"></p>
+          <p class="hero-summary" data-field="summary"></p>
+          <div class="hero-actions">
+            <a class="button button-primary" data-field="emailLink" href="">Write to me</a>
+            <a class="button button-secondary" href="#writing">Explore the work</a>
+          </div>
+          <div class="hero-metrics" data-list="stats"></div>
+        </div>
+
+        <aside class="hero-portrait glass">
+          <div class="portrait-frame">
+            <img data-field="photo" alt="Portrait placeholder for Sanchayan Saha" />
+          </div>
+          <p class="portrait-note">
+            Replace the image in <span>assets/</span> and update the JSON when ready.
+          </p>
+          <div class="hero-badge-row" data-list="badges"></div>
+        </aside>
+      </section>
+
+      <section class="section reveal" id="about">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>The rare combination of scientific discipline and literary instinct.</h2>
+        </div>
+        <div class="two-column">
+          <article class="glass prose-card" data-field="about"></article>
+          <aside class="glass detail-card">
+            <p class="detail-label">Profile</p>
+            <div class="detail-list" data-list="profileHighlights"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section reveal" id="writing">
+        <div class="section-heading">
+          <p class="eyebrow">Writing</p>
+          <h2>Language treated as craft, persuasion, and intellectual architecture.</h2>
+        </div>
+        <div class="writing-grid">
+          <article class="glass feature-card">
+            <p class="feature-label">Core promise</p>
+            <p class="feature-copy" data-field="writingPromise"></p>
+          </article>
+          <div class="card-grid" data-list="writingCards"></div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="background">
+        <div class="section-heading">
+          <p class="eyebrow">Background</p>
+          <h2>Academic seriousness, broad reading, and practical execution.</h2>
+        </div>
+        <div class="timeline-grid">
+          <div class="glass timeline-card" data-list="education"></div>
+          <div class="glass timeline-card" data-list="achievements"></div>
+        </div>
+      </section>
+
+      <section class="section reveal" id="influences">
+        <div class="section-heading">
+          <p class="eyebrow">Influences</p>
+          <h2>A mind shaped by literature, cinema, economics, and difficult questions.</h2>
+        </div>
+        <div class="influence-trophies" data-list="influences"></div>
+        <div class="glass quote-panel">
+          <p class="quote-label">Reading life</p>
+          <p class="quote-copy" data-field="booksStatement"></p>
+        </div>
+      </section>
+
+      <section class="section reveal" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow">Skills</p>
+          <h2>Built on words first, supported by structure, research, and code.</h2>
+        </div>
+        <div class="skills-wrap glass" data-list="skills"></div>
+      </section>
+
+      <section class="section reveal" id="contact">
+        <div class="contact-panel glass">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>For essays, copy, ideas, collaborations, or serious conversations.</h2>
+            <p class="contact-copy" data-field="contactBlurb"></p>
+          </div>
+          <div class="contact-actions">
+            <a class="button button-primary" data-field="emailLinkSecondary" href=""></a>
+            <p class="contact-meta" data-field="contactMeta"></p>
+          </div>
+        </div>
+      </section>
+    </template>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
