@@ -1665,6 +1665,8 @@ h3 {
   border: 1px solid var(--border-strong);
   background: #040810;
   box-shadow: var(--shadow-lift);
+  contain: layout paint;
+  transform: translateZ(0);
 }
 
 #world-3d-canvas {
@@ -1672,6 +1674,7 @@ h3 {
   height: 100%;
   display: block;
   outline: none;
+  touch-action: none;
 }
 
 /* 3D Top HUD */

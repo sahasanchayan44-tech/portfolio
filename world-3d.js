@@ -221,12 +221,13 @@ export class World3D {
     this.renderer = new THREE.WebGLRenderer({
       canvas: this.canvas,
       antialias: true,
-      powerPreference: "high-performance"
+      powerPreference: "high-performance",
+      precision: "mediump"
     });
     this.renderer.setSize(width, height);
-    this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
-    this.renderer.shadowMap.enabled = true;
-    this.renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+    // Optimized pixel ratio to prevent retina fill-rate lagging
+    this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.25));
+    this.renderer.shadowMap.enabled = false;
 
     this.raycaster = new THREE.Raycaster();
     this.mouse = new THREE.Vector2(-999, -999);
@@ -804,7 +805,7 @@ export class World3D {
 
   buildAtmosphericParticles() {
     const THREE = window.THREE;
-    const particleCount = 280;
+    const particleCount = 90;
     const geometry = new THREE.BufferGeometry();
     const positions = new Float32Array(particleCount * 3);
 
@@ -910,8 +911,12 @@ export class World3D {
 
     this.previousMousePosition = { x: e.clientX, y: e.clientY };
 
-    // Raycast hover check
-    this.checkRaycastHover(e.clientX, e.clientY);
+    // Throttled raycast hover check for buttery smooth 60fps
+    const now = performance.now();
+    if (!this.lastRaycastTime || now - this.lastRaycastTime > 32) {
+      this.lastRaycastTime = now;
+      this.checkRaycastHover(e.clientX, e.clientY);
+    }
   }
 
   onMouseDown(e) {
