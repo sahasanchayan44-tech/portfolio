@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Matrix Rain</title>
+<style>
+  body { margin: 0; background: #000; overflow: hidden; }
+  canvas { display: block; }
+</style>
+</head>
+<body>
+<canvas id="matrix"></canvas>
+<script>
+const canvas = document.getElementById('matrix');
+const ctx = canvas.getContext('2d');
+
+const katakana = 'アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン';
+const latin = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const digits = '0123456789';
+const chars = katakana + latin + digits;
+
+const fontSize = 14;
+let cols, drops;
+
+function resize() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  cols = Math.floor(canvas.width / fontSize);
+  drops = Array(cols).fill(1);
+}
+
+resize();
+window.addEventListener('resize', resize);
+
+function draw() {
+  ctx.fillStyle = 'rgba(0,0,0,0.05)';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  for (let i = 0; i < drops.length; i++) {
+    const char = chars[Math.floor(Math.random() * chars.length)];
+    const y = drops[i] * fontSize;
+
+    if (Math.random() > 0.97) {
+      ctx.fillStyle = '#fff';
+    } else {
+      const brightness = Math.floor(150 + Math.random() * 105);
+      ctx.fillStyle = `rgb(0,${brightness},0)`;
+    }
+
+    ctx.font = `${fontSize}px monospace`;
+    ctx.fillText(char, i * fontSize, y);
+
+    if (y > canvas.height && Math.random() > 0.975) {
+      drops[i] = 0;
+    }
+    drops[i]++;
+  }
+}
+
+setInterval(draw, 50);
+</script>
+</body>
+</html>

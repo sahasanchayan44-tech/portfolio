@@ -1,0 +1,23 @@
+# Environments & Dependencies
+myenv/
+ai_env/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# System & Editor
+*.swp
+*.swo
+.DS_Store
+.idea/
+.vscode/
+
+# Scratch & Test scripts
+hello.py
+hello.pyu
+india_seats.py
+matrix_jp.py
+pi_visualizer.py
+tensor_test.py
+tensor_text.py
