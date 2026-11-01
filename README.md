@@ -1,54 +1,100 @@
-# Sanchayan Saha Portfolio
+# Sanchayan Saha — Portfolio & Cultural Archive
 
-A premium single-page portfolio built as a lightweight static site with all main editable copy stored in JSON.
+A premium, Swiss-minimalist portfolio and dedicated **Cultural Archive** documenting Sanchayan Saha's intellectual and creative identity: writer, reader, analyst, and cinephile.
 
-## Run locally
+---
 
-Because the site loads content from `data/site-content.json`, serve the folder over a local HTTP server instead of opening `index.html` directly.
+## Key Modules & Features
+
+### 1. Main Professional Portfolio
+- Minimalist Swiss typography, deep Obsidian/Parchment tones, and glassmorphism.
+- Sections: Hero, Selected Strengths, About, Writing Services, Selected Works, Influences, and Collaboration Contact.
+- Editable via [`data/site-content.json`](./data/site-content.json).
+
+### 2. The Cultural Archive (2D Literary & Cinema Museum)
+- **The Literary Journey**:
+  - Bengali Literature (heritage, novels, short stories: Tagore, Bibhutibhushan, Sarat Chandra, Manik, Ray, Shirshendu).
+  - English & World Literature (Dostoevsky, Kafka, Camus, Orwell, Hemingway).
+  - Philosophy & Depth Psychology (Jung, existentialism, moral dilemmas).
+  - Faceted real-time search, category filters, and status filters.
+  - Interactive **Book Detail Modals** with passages, archival notes, and related works.
+- **A Life Through Cinema**:
+  - Indian Cinema (Hindi, Bengali, independent, character-driven: *The Lunchbox*, *Maqbool*, *Ludo*, *Manjhi*, *Angrezi Medium*, *Metro... In Dino*).
+  - International Cinema (*12 Angry Men*, *Dead Poets Society*, *The Social Network*, *Mank*, *Past Lives*).
+  - Animation & Visual Storytelling (*Studio Ghibli*, *WALL-E*, *Kung Fu Panda*, *The Wild Robot*, *Spider-Man*).
+  - Interactive **Film Detail Modals** with performances, scenes, and psychological subtext.
+- **Cinema & Human Psychology**:
+  - Dedicated longform essays on silence, subtext, moral conscience, and reading immersion.
+- **Reading & Cinema Journals**:
+  - Personal archival journals capturing reflections, passages, and scene analyses.
+- **Pantheon of Directors & Performers**:
+  - Naseeruddin Shah, Nawazuddin Siddiqui, Aamir Khan, Robert Downey Jr., Jake Gyllenhaal, Jim Carrey, Johnny Depp, Satyajit Ray, Hayao Miyazaki.
+- **Cultural Statistics**:
+  - Transparently labelled self-reported historical estimates: 400+ books (300+ Bengali, 100+ English, 30+ e-books), >1,000 films over ~8 years (500+ Indian cinema).
+
+### 3. The Interactive 3D World (Eight Locations)
+Built with Three.js, featuring smooth camera transitions, raycast hover effects, and interactive object inspection:
+1. **The Grand Atrium** (The Intellectual Nexus)
+2. **The Observatory** (Scientific Rigor & Analysis)
+3. **The Writer's Studio** (Editorial Craft & Prose Architecture)
+4. **The Systems Lab** (Technical & Code Fluency)
+5. **The Strategy Chamber** (Argumentation & Dialectic Reasoning)
+6. **The Gallery of Thinkers** (Foundational Influences)
+7. **The Collaboration Pavilion** (Dialogue & Future Partnerships)
+8. **THE CULTURAL ARCHIVE** (The Master Module: Interconnected Grand Library & Atmospheric Cinema Room)
+   - **The Library Environment**: Towering minimalist bookshelves with glowing spines, floating interactive books, reading tables, and archive terminal.
+   - **The Cinema Environment**: Private screening room, cinematic projection surface with gentle light spill, velvet seating, floating film posters, and cinema terminal.
+
+---
+
+## Running Locally
+
+Because the application loads structured JSON content (`data/site-content.json` and `content/archive-manifest.json`), serve the folder over any local HTTP server:
 
 ```bash
 cd /home/sanchayan/portfolio
 python3 -m http.server 4173
 ```
 
-Then open `http://localhost:4173`.
+Then open `http://localhost:4173` in your browser.
 
-## Edit content
+---
 
-Update profile, hero copy, proof points, services, sample works, influences, and contact info in [data/site-content.json](/home/sanchayan/portfolio/data/site-content.json).
+## Content Management Architecture
 
-Main editable sections:
+Structured static content is organized without any database dependency:
 
-- `profile`: name, title, profile highlights
-- `photo`: placeholder image path, alt text, and replacement note
-- `hero`: lead, summary, CTA labels, stats, and badges
-- `positioning`: short self-positioning lines and quote
-- `proof`: selected strengths strip
-- `about`: heading, intro, body, and quote lines
-- `services`: writing categories and service bullets
-- `works`: sample or placeholder writing cards
-- `influences`: grouped book and influence categories
-- `contact`: heading, blurb, email, and availability note
+```
+content/
+├── literature/
+│   ├── bengali/          # Bengali novels, heritage, and short stories
+│   ├── english/          # English and international literature
+│   ├── philosophy/       # Ethics, existentialism, and philosophical fiction
+│   └── psychology/       # Human behaviour, identity, and depth psychology
+├── cinema/
+│   ├── indian/           # Indian cinema across genres and languages
+│   ├── international/    # Global character studies and classics
+│   ├── animation/        # Studio Ghibli, Pixar, and visual storytelling
+│   ├── documentaries/    # Non-fiction and factual cinema
+│   ├── directors/        # Filmmaker craft profiles
+│   └── actors/           # Admired performers and character studies
+├── reading-journal/      # Reading reflections and memorable passages
+├── cinema-journal/       # Film reflections, scenes, and performances
+├── archive-manifest.json # Consolidated master manifest
+└── HOW_TO_ADD_CONTENT.md # Step-by-step contribution guide
+```
 
-## Change the photo
+To add books, films, or journal entries, refer to [`content/HOW_TO_ADD_CONTENT.md`](./content/HOW_TO_ADD_CONTENT.md).
 
-The current placeholder image lives at [assets/profile-placeholder.svg](/home/sanchayan/portfolio/assets/profile-placeholder.svg).
+---
 
-To replace it:
+## File Structure
 
-1. Add your preferred image file to `/home/sanchayan/portfolio/assets/`
-2. Update `photo.src` in [data/site-content.json](/home/sanchayan/portfolio/data/site-content.json)
-
-## File structure
-
-- [index.html](/home/sanchayan/portfolio/index.html): page shell and section template
-- [styles.css](/home/sanchayan/portfolio/styles.css): glassmorphism theme, layout, components, and motion
-- [script.js](/home/sanchayan/portfolio/script.js): JSON loading and UI rendering
-- [data/site-content.json](/home/sanchayan/portfolio/data/site-content.json): editable portfolio content
-- [assets/profile-placeholder.svg](/home/sanchayan/portfolio/assets/profile-placeholder.svg): placeholder portrait
-
-## Notes
-
-- No build step is required.
-- No photo generation or external content fetching is used.
-- If you change the JSON schema, update both [script.js](/home/sanchayan/portfolio/script.js) and this README.
+- [`index.html`](./index.html): Main page shell, templates, and 2D/3D containers
+- [`styles.css`](./styles.css): Swiss typography, glassmorphism, editorial book/poster cards, and 3D HUD
+- [`script.js`](./script.js): Main coordinator, profile hydration, and module bootstrapper
+- [`cultural-archive.js`](./cultural-archive.js): 2D Cultural Archive controller, search, filters, and detail modals
+- [`world-3d.js`](./world-3d.js): Three.js 3D world engine with 8 locations and interactive raycasting
+- [`data/site-content.json`](./data/site-content.json): Main professional profile data
+- [`content/archive-manifest.json`](./content/archive-manifest.json): Consolidated Cultural Archive data
+- [`assets/vendor/three.min.js`](./assets/vendor/three.min.js): Offline local Three.js bundle (with CDN fallback)

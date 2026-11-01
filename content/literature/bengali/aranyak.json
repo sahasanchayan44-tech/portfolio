@@ -1,0 +1,25 @@
+{
+  "id": "aranyak",
+  "title": "Aranyak (Of the Forest)",
+  "author": "Bibhutibhushan Bandyopadhyay",
+  "originalLanguage": "Bengali",
+  "category": "bengali",
+  "genre": [
+    "Nature & Solitude",
+    "Philosophical Realism",
+    "Bengali Heritage"
+  ],
+  "status": "read",
+  "readingDate": null,
+  "personalRating": null,
+  "personalReview": null,
+  "notes": "A meditative masterpiece exploring the ancient primordial forests of Bihar, the dispossession of forest communities, and the melancholic friction between modern civilization and untouched wilderness.",
+  "memorablePassages": [
+    "In the silence of the night, under the immense starlit sky of the forest, the vanity of human ambition dissolves."
+  ],
+  "coverPalette": "forest",
+  "relatedBooks": [
+    "pather-panchali"
+  ],
+  "isFavourite": true
+}

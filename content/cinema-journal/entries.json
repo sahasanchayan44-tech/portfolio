@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cj-1",
+    "filmTitle": "The Lunchbox",
+    "director": "Ritesh Batra",
+    "date": "Cinema Journal",
+    "focus": "Performance & Subtext",
+    "reflection": "The restraint in Irrfan Khan's performance: every gesture feels lived-in. The way he adjusts his glasses, the hesitation before unfolding the handwritten note. It honors the private, invisible dignity of ordinary working people."
+  },
+  {
+    "id": "cj-2",
+    "filmTitle": "12 Angry Men",
+    "director": "Sidney Lumet",
+    "date": "Cinema Journal",
+    "focus": "Psychological Dynamics",
+    "reflection": "Notice how Lumet slowly shifts focal lengths and camera heights as the afternoon progresses. The ceiling feels lower, the walls press closer, and the lenses flatten the perspective. The camera itself becomes an instrument of psychological claustrophobia."
+  },
+  {
+    "id": "cj-3",
+    "filmTitle": "WALL-E & The Dignity of Silence",
+    "director": "Andrew Stanton",
+    "date": "Cinema Journal",
+    "focus": "Visual Storytelling",
+    "reflection": "The courage to build the first act without human dialogue. It proves that character empathy relies on action, curiosity, and rhythm, not exposition. When a machine handles a tape cassette with reverence, it teaches what reverence means."
+  }
+]

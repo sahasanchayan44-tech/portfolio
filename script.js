@@ -1,3 +1,6 @@
+import { CulturalArchive } from "./cultural-archive.js";
+import { World3D } from "./world-3d.js";
+
 const app = document.querySelector("#app");
 const template = document.querySelector("#portfolio-template");
 
@@ -222,7 +225,43 @@ const hydrate = (content) => {
     influencesWrap.appendChild(createInfluenceGroup(group)),
   );
 
+  // Cultural Archive Teaser hydration
+  if (content.culturalArchiveTeaser) {
+    setText(fragment, '[data-field="teaserEyebrow"]', content.culturalArchiveTeaser.eyebrow);
+    setText(fragment, '[data-field="teaserHeading"]', content.culturalArchiveTeaser.heading);
+    setText(fragment, '[data-field="teaserIntro"]', content.culturalArchiveTeaser.intro);
+
+    const teaserStatsWrap = fragment.querySelector('[data-list="teaserStats"]');
+    if (teaserStatsWrap && content.culturalArchiveTeaser.stats) {
+      content.culturalArchiveTeaser.stats.forEach((item) =>
+        teaserStatsWrap.appendChild(createMetric(item)),
+      );
+    }
+  }
+
   app.appendChild(fragment);
+
+  // Initialize Cultural Archive Module & 3D World
+  const archiveContainer = document.querySelector("#cultural-archive-root");
+  if (archiveContainer) {
+    const culturalArchive = new CulturalArchive({
+      manifestUrl: "./content/archive-manifest.json",
+      container: archiveContainer
+    });
+
+    culturalArchive.init().then((archiveData) => {
+      const worldContainer = document.querySelector("#world-3d-root");
+      if (worldContainer) {
+        const world3D = new World3D({
+          container: worldContainer,
+          archiveController: culturalArchive,
+          books: archiveData ? archiveData.books : [],
+          films: archiveData ? archiveData.films : []
+        });
+        world3D.init();
+      }
+    });
+  }
 
   const observer = new IntersectionObserver(
     (entries) => {

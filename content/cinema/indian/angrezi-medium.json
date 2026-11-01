@@ -1,0 +1,28 @@
+{
+  "id": "angrezi-medium",
+  "title": "Angrezi Medium",
+  "director": "Homi Adajania",
+  "releaseYear": 2020,
+  "country": "India",
+  "language": "Hindi",
+  "category": "indian",
+  "genre": [
+    "Family Drama",
+    "Emotional Comedy",
+    "Character-Driven Storytelling"
+  ],
+  "viewingStatus": "watched",
+  "dateWatched": null,
+  "personalRating": null,
+  "review": null,
+  "favouriteScene": "Champak's speech on letting his daughter fly even when his heart wants to hold her back.",
+  "favouritePerformance": "Irrfan Khan as Champak Bansal",
+  "themes": [
+    "Paternal Devotion",
+    "Generational Distance",
+    "Sacrifice & Love"
+  ],
+  "personalReflections": "Irrfan's swan song, filled with tender warmth and human humor under immense personal vulnerability. It reminds us why character beats always transcend plot mechanics.",
+  "posterPalette": "warm-honey",
+  "isFavourite": false
+}

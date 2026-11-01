@@ -1,0 +1,28 @@
+{
+  "id": "mank",
+  "title": "Mank",
+  "director": "David Fincher",
+  "releaseYear": 2020,
+  "country": "United States",
+  "language": "English",
+  "category": "international",
+  "genre": [
+    "Period Drama",
+    "Artistic Compromise",
+    "Cinema History"
+  ],
+  "viewingStatus": "watched",
+  "dateWatched": null,
+  "personalRating": null,
+  "review": null,
+  "favouriteScene": "Mank's drunken monologue at San Simeon dismantling William Randolph Hearst's organ-grinder monkey fable.",
+  "favouritePerformance": "Gary Oldman as Herman J. Mankiewicz",
+  "themes": [
+    "Integrity vs Selling Out",
+    "Memory & Alcoholism",
+    "Political Propaganda in Media"
+  ],
+  "personalReflections": "A sumptuous, monochrome love letter to the messy, painful compromises behind great art. Rich in historical subtext and bitter intellectual wit.",
+  "posterPalette": "silver-screen",
+  "isFavourite": false
+}

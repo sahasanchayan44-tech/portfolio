@@ -1,0 +1,23 @@
+{
+  "id": "srikanta",
+  "title": "Srikanta",
+  "author": "Sarat Chandra Chattopadhyay",
+  "originalLanguage": "Bengali",
+  "category": "bengali",
+  "genre": [
+    "Picaresque Novel",
+    "Human Relationships",
+    "Bengali Heritage"
+  ],
+  "status": "read",
+  "readingDate": null,
+  "personalRating": null,
+  "personalReview": null,
+  "notes": "A rambling, honest autobiographical narrative of a wanderer through early 20th-century Bengal and Burma, exploring unconventional relationships, outcasts, and societal hypocrisy.",
+  "memorablePassages": [],
+  "coverPalette": "amber",
+  "relatedBooks": [
+    "gora"
+  ],
+  "isFavourite": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "metamorphosis",
+  "title": "The Metamorphosis",
+  "author": "Franz Kafka",
+  "originalLanguage": "German",
+  "category": "english",
+  "genre": [
+    "Modernist Classic",
+    "Psychological Alienation",
+    "Short Fiction"
+  ],
+  "status": "read",
+  "readingDate": null,
+  "personalRating": null,
+  "personalReview": null,
+  "notes": "Gregor Samsa's transformation strips away family affection to reveal cold economic utility. A heartbreaking look at bodily isolation and societal disposal.",
+  "memorablePassages": [],
+  "coverPalette": "umber",
+  "relatedBooks": [
+    "the-trial"
+  ],
+  "isFavourite": true
+}

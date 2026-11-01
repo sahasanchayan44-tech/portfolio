@@ -1,0 +1,29 @@
+{
+  "id": "the-social-network",
+  "title": "The Social Network",
+  "director": "David Fincher",
+  "releaseYear": 2010,
+  "country": "United States",
+  "language": "English",
+  "category": "international",
+  "genre": [
+    "Biographical Drama",
+    "Psychological Study of Ambition",
+    "Modern Tragedy"
+  ],
+  "viewingStatus": "watched",
+  "dateWatched": null,
+  "personalRating": null,
+  "review": null,
+  "favouriteScene": "The quiet ending: Mark Zuckerberg refreshing the friend request in a dark corporate boardroom.",
+  "favouritePerformance": "Jesse Eisenberg as Mark Zuckerberg & Andrew Garfield as Eduardo Saverin",
+  "themes": [
+    "Ambition & Alienation",
+    "Friendship & Betrayal",
+    "Modern Power Dynamics",
+    "Intellectual Isolation"
+  ],
+  "personalReflections": "Fincher's surgical precision paired with Sorkin's razor dialogue. A tragedy about a man who built a network connecting hundreds of millions because he couldn't connect with the person across the table.",
+  "posterPalette": "code-blue",
+  "isFavourite": true
+}

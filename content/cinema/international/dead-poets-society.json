@@ -1,0 +1,29 @@
+{
+  "id": "dead-poets-society",
+  "title": "Dead Poets Society",
+  "director": "Peter Weir",
+  "releaseYear": 1989,
+  "country": "United States",
+  "language": "English",
+  "category": "international",
+  "genre": [
+    "Drama",
+    "Human Spirit & Education",
+    "Classic"
+  ],
+  "viewingStatus": "watched",
+  "dateWatched": null,
+  "personalRating": null,
+  "review": null,
+  "favouriteScene": "The boys standing on their desks one by one: 'O Captain! My Captain!'",
+  "favouritePerformance": "Robin Williams as John Keating",
+  "themes": [
+    "Conformity vs Individuality",
+    "Carpe Diem",
+    "The Power of Poetry & Voice",
+    "Youthful Vulnerability"
+  ],
+  "personalReflections": "A film that champions the sacred necessity of independent thought, art, and emotional defiance against rigid institutional conditioning.",
+  "posterPalette": "autumn-ivy",
+  "isFavourite": true
+}

@@ -1,0 +1,26 @@
+{
+  "id": "the-trial",
+  "title": "The Trial",
+  "author": "Franz Kafka",
+  "originalLanguage": "German",
+  "category": "english",
+  "genre": [
+    "Existential Dread",
+    "Modernist Fiction",
+    "Psychological Allegory"
+  ],
+  "status": "read",
+  "readingDate": null,
+  "personalRating": null,
+  "personalReview": null,
+  "notes": "The terrifying geometry of opaque bureaucracy, guilt without crime, and systemic alienation. Josef K.'s arrest portrays power that operates through infinite deferral.",
+  "memorablePassages": [
+    "Someone must have slandered Josef K., for one morning, without having done anything truly wrong, he was arrested."
+  ],
+  "coverPalette": "bone-black",
+  "relatedBooks": [
+    "metamorphosis",
+    "1984"
+  ],
+  "isFavourite": true
+}

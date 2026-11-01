@@ -1,0 +1,28 @@
+{
+  "id": "the-wild-robot",
+  "title": "The Wild Robot",
+  "director": "Chris Sanders",
+  "releaseYear": 2024,
+  "country": "United States",
+  "language": "English",
+  "category": "animation",
+  "genre": [
+    "Animation",
+    "Visual Storytelling",
+    "Emotional Sci-Fi"
+  ],
+  "viewingStatus": "watched",
+  "dateWatched": null,
+  "personalRating": null,
+  "review": null,
+  "favouriteScene": "Roz overriding her core programming to learn maternal gentleness from the wild creatures.",
+  "favouritePerformance": "Lupita Nyong'o as Roz",
+  "themes": [
+    "Kindness as Survival Skill",
+    "Maternal Instinct",
+    "Overcoming Programmed Boundaries"
+  ],
+  "personalReflections": "Painterly, breathtaking animation that argues that empathy is not weakness, but the ultimate evolutionary advancement.",
+  "posterPalette": "wild-canopy",
+  "isFavourite": true
+}

@@ -1,0 +1,26 @@
+{
+  "id": "the-stranger",
+  "title": "The Stranger (L'Étranger)",
+  "author": "Albert Camus",
+  "originalLanguage": "French",
+  "category": "philosophy",
+  "genre": [
+    "Absurdism",
+    "Philosophical Fiction",
+    "Psychological Restraint"
+  ],
+  "status": "read",
+  "readingDate": null,
+  "personalRating": null,
+  "personalReview": null,
+  "notes": "A masterclass in tonal restraint and emotional honesty. Meursault's refusal to perform expected grief or performative social rituals exposes society's theatrical morality.",
+  "memorablePassages": [
+    "I opened myself to the gentle indifference of the world."
+  ],
+  "coverPalette": "sand-gold",
+  "relatedBooks": [
+    "notes-from-underground",
+    "crime-and-punishment"
+  ],
+  "isFavourite": true
+}

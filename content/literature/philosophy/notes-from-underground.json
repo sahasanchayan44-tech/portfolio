@@ -1,0 +1,26 @@
+{
+  "id": "notes-from-underground",
+  "title": "Notes from Underground",
+  "author": "Fyodor Dostoevsky",
+  "originalLanguage": "Russian",
+  "category": "philosophy",
+  "genre": [
+    "Existential Philosophy",
+    "Psychological Monologue",
+    "Classics"
+  ],
+  "status": "read",
+  "readingDate": null,
+  "personalRating": null,
+  "personalReview": null,
+  "notes": "A scorching polemic against utilitarian rationalism. Explores human irrationality, spite, pride, and the perverse desire for free will even at the expense of suffering.",
+  "memorablePassages": [
+    "I am a sick man... I am a spiteful man. I am an unattractive man."
+  ],
+  "coverPalette": "deep-slate",
+  "relatedBooks": [
+    "crime-and-punishment",
+    "the-stranger"
+  ],
+  "isFavourite": true
+}

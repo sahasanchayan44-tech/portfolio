@@ -1,0 +1,26 @@
+{
+  "id": "pather-panchali",
+  "title": "Pather Panchali (Song of the Little Road)",
+  "author": "Bibhutibhushan Bandyopadhyay",
+  "originalLanguage": "Bengali",
+  "category": "bengali",
+  "genre": [
+    "Bengali Heritage",
+    "Realism",
+    "Classic Novel"
+  ],
+  "status": "read",
+  "readingDate": null,
+  "personalRating": null,
+  "personalReview": null,
+  "notes": "A landmark work of Bengali literature capturing rural Bengal with tender lyricism, wonder, and the quiet dignity of human survival against material poverty.",
+  "memorablePassages": [
+    "The train whistle echoing across the kash fields—the boundary between known intimacy and the vast mystery of the world."
+  ],
+  "coverPalette": "emerald",
+  "relatedBooks": [
+    "aranyak",
+    "galpaguchchha"
+  ],
+  "isFavourite": true
+}

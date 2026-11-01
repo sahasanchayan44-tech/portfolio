@@ -13,8 +13,8 @@
         "value": "Science training with a bias toward rigor, structure, and precision"
       },
       {
-        "label": "Reading depth",
-        "value": "200+ books across literature, philosophy, economics, history, politics, and criticism"
+        "label": "Reading & Cinema depth",
+        "value": "400+ books (300+ Bengali, 100+ English) & 1,000+ films explored as personal intellectual foundation"
       },
       {
         "label": "Operational range",
@@ -36,26 +36,27 @@
     "secondaryCta": "Read the sample work",
     "stats": [
       {
-        "value": "200+",
+        "value": "400+",
         "label": "books seriously read",
-        "detail": "Not as aesthetic background, but as apprenticeship in judgment, style, and complexity."
+        "detail": "Approximate self-reported reading foundation: 300+ Bengali books and 100+ English & world works."
       },
       {
-        "value": "Science",
-        "label": "training in rigor",
-        "detail": "Comfort with difficult material, disciplined reasoning, and method over hand-waving."
+        "value": "1,000+",
+        "label": "films explored",
+        "detail": "Deep engagement with Indian cinema, international classics, and animation over ~8 years."
       },
       {
-        "value": "Code-literate",
-        "label": "structure-aware",
-        "detail": "Enough technical fluency to write clearly about systems, products, logic, and process."
+        "value": "Science & Code",
+        "label": "analytical rigor",
+        "detail": "Empirical discipline, structural clarity, and comfort with complex systems."
       }
     ],
     "badges": [
+      "Literary depth",
+      "Cinematic intuition",
       "Essayistic intelligence",
       "Research-backed clarity",
-      "Controlled tone",
-      "Cross-domain fluency"
+      "Controlled tone"
     ]
   },
   "positioning": {
@@ -92,12 +93,13 @@
     ]
   },
   "about": {
-    "heading": "A writer shaped by difficult books, scientific discipline, and a refusal to sound generic.",
-    "intro": "The point is not to perform intelligence. The point is to make prose precise enough to think with and strong enough to carry conviction.",
-    "body": "Most writing collapses for one of two reasons: it is either all posture and no thought, or all information and no style. I am interested in the harder middle. My best work comes from sustained reading, careful arrangement, and a sense that every sentence should earn its place. I care about rhythm, argument, architecture, and tonal control. That makes me useful across forms: essays that can hold tension, research summaries that remain lucid, scripts that move cleanly, and copy that persuades without sounding desperate.",
+    "heading": "A writer shaped by Bengali heritage, world literature, deep cinema, and scientific discipline.",
+    "intro": "Literature and cinema are not decorative pastimes or hobbies. They are essential dimensions of my intellectual identity—training my instincts for human psychology, narrative architecture, and subtext.",
+    "body": "My intellectual formation began with extensive immersion in Bengali literature—over 300 books exploring the lyrical realism of Bibhutibhushan, the moral scrutiny of Tagore, and the existential sharpness of Manik Bandyopadhyay—before expanding into more than 100 English and world works. Alongside reading, watching more than 1,000 films over eight years has been an emotional and psychological education in character, silence, and social observation. When combined with scientific training, this produces prose that respects rigor without losing human warmth, and argument that understands narrative momentum.",
     "quoteLines": [
-      "Broad reading is not decoration. It sharpens taste, proportion, and judgment.",
-      "Good prose should feel inevitable after the fact, not ornate while it is happening."
+      "Broad reading is not decoration. It sharpens taste, proportion, and moral judgment.",
+      "Cinema teaches what can be implied rather than stated; science teaches what must be proven.",
+      "Immersion in character and story is an apprenticeship in perception itself."
     ]
   },
   "services": {
@@ -268,6 +270,30 @@
         ]
       }
     ]
+  },
+  "culturalArchiveTeaser": {
+    "eyebrow": "The Cultural Archive",
+    "heading": "Literature, Cinema, and Human Experience.",
+    "intro": "A dedicated archive and interactive space documenting my journey through 400+ books, 1,000+ films, storytelling, philosophy, and human psychology.",
+    "stats": [
+      {
+        "value": "400+",
+        "label": "Books Read (Est.)",
+        "detail": "300+ Bengali books, 100+ English & world titles"
+      },
+      {
+        "value": "1,000+",
+        "label": "Films Watched (Est.)",
+        "detail": "500+ Indian movies, international cinema & animation"
+      },
+      {
+        "value": "8th Location",
+        "label": "Interactive 3D Space",
+        "detail": "Monumental Library & Atmospheric Cinema room"
+      }
+    ],
+    "primaryCta": "Open Cultural Archive (2D)",
+    "secondaryCta": "Enter 3D World (8 Locations)"
   },
   "contact": {
     "email": "sahasanchayan44@gmail.com",

@@ -1,0 +1,23 @@
+{
+  "id": "shonku-adventures",
+  "title": "Professor Shonku's Inventions & Diaries",
+  "author": "Satyajit Ray",
+  "originalLanguage": "Bengali",
+  "category": "bengali",
+  "genre": [
+    "Speculative Science Fiction",
+    "Diary Format",
+    "Bengali Heritage"
+  ],
+  "status": "read",
+  "readingDate": null,
+  "personalRating": null,
+  "personalReview": null,
+  "notes": "Pioneering Bengali sci-fi. Imaginative inventions (Miracurall, Annihilin, Robu) framed with curiosity, scientific ethics, and dry human warmth.",
+  "memorablePassages": [],
+  "coverPalette": "teal",
+  "relatedBooks": [
+    "feluda-series"
+  ],
+  "isFavourite": false
+}

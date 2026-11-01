@@ -1,0 +1,29 @@
+{
+  "id": "wall-e",
+  "title": "WALL-E",
+  "director": "Andrew Stanton",
+  "releaseYear": 2008,
+  "country": "United States",
+  "language": "English",
+  "category": "animation",
+  "genre": [
+    "Animated Sci-Fi",
+    "Visual Storytelling",
+    "Environmental Allegory"
+  ],
+  "viewingStatus": "watched",
+  "dateWatched": null,
+  "personalRating": null,
+  "review": null,
+  "favouriteScene": "The opening 35 minutes of pure visual storytelling without spoken dialogue on a ruined Earth.",
+  "favouritePerformance": "Ben Burtt (Sound Design & Vocals)",
+  "themes": [
+    "Silence & Devotion",
+    "Consumerist Degeneration",
+    "Hope & Regeneration",
+    "Machine Consciousness"
+  ],
+  "personalReflections": "A cinematic triumph of silent storytelling. WALL-E's tender curiosity and care for a tiny plant shows that love is an act of preservation.",
+  "posterPalette": "rust-and-space",
+  "isFavourite": true
+}

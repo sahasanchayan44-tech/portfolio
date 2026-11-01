@@ -1,0 +1,29 @@
+{
+  "id": "twelve-angry-men",
+  "title": "12 Angry Men",
+  "director": "Sidney Lumet",
+  "releaseYear": 1957,
+  "country": "United States",
+  "language": "English",
+  "category": "international",
+  "genre": [
+    "Courtroom Drama",
+    "Psychological Study",
+    "Classic Cinema"
+  ],
+  "viewingStatus": "watched",
+  "dateWatched": null,
+  "personalRating": null,
+  "review": null,
+  "favouriteScene": "The moment Juror 10 delivers his bigoted tirade and one by one, every juror silently turns their back on him.",
+  "favouritePerformance": "Henry Fonda as Juror 8 & Lee J. Cobb as Juror 3",
+  "themes": [
+    "Reasonable Doubt",
+    "Prejudice & Projection",
+    "Moral Courage",
+    "Democratic Conscience"
+  ],
+  "personalReflections": "Confined to a sweltering room, Lumet constructs a breathtaking study of human psychology. It demonstrates that true drama does not need explosions; it needs characters who believe they are right.",
+  "posterPalette": "monochrome-chalk",
+  "isFavourite": true
+}

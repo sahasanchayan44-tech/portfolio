@@ -1,0 +1,28 @@
+{
+  "id": "metro-in-dino",
+  "title": "Metro... In Dino",
+  "director": "Anurag Basu",
+  "releaseYear": 2024,
+  "country": "India",
+  "language": "Hindi",
+  "category": "indian",
+  "genre": [
+    "Contemporary Indian Cinema",
+    "Urban Relationships",
+    "Anthology Drama"
+  ],
+  "viewingStatus": "watchlist",
+  "dateWatched": null,
+  "personalRating": null,
+  "review": null,
+  "favouriteScene": null,
+  "favouritePerformance": null,
+  "themes": [
+    "Modern Urban Desires",
+    "Fragile Bonds",
+    "Emotional Complexity"
+  ],
+  "personalReflections": "Anticipated exploration of modern Indian metropolitan relationships, following Anurag Basu's lyrical lineage of portraying unspoken yearning.",
+  "posterPalette": "rainy-neon",
+  "isFavourite": false
+}

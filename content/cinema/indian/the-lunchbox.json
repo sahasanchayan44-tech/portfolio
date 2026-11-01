@@ -1,0 +1,29 @@
+{
+  "id": "the-lunchbox",
+  "title": "The Lunchbox",
+  "director": "Ritesh Batra",
+  "releaseYear": 2013,
+  "country": "India",
+  "language": "Hindi",
+  "category": "indian",
+  "genre": [
+    "Psychological Drama",
+    "Human Connection",
+    "Contemporary Indian Cinema"
+  ],
+  "viewingStatus": "watched",
+  "dateWatched": null,
+  "personalRating": null,
+  "review": null,
+  "favouriteScene": "The quiet moments Saajan Fernandes spends smelling the letter on his balcony amidst the Mumbai evening sounds.",
+  "favouritePerformance": "Irrfan Khan as Saajan Fernandes & Nawazuddin Siddiqui as Shaikh",
+  "themes": [
+    "Urban Loneliness",
+    "Epistolary Intimacy",
+    "Second Chances",
+    "Subtle Grief"
+  ],
+  "personalReflections": "A film that breathes through its pauses. Demonstrates that loneliness in a city of millions can be bridged by something as simple as handwriting, shared food, and shared doubt.",
+  "posterPalette": "dabbawala-amber",
+  "isFavourite": true
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ludo",
+  "title": "Ludo",
+  "director": "Anurag Basu",
+  "releaseYear": 2020,
+  "country": "India",
+  "language": "Hindi",
+  "category": "indian",
+  "genre": [
+    "Dark Comedy",
+    "Hyperlink Cinema",
+    "Character-Driven Drama"
+  ],
+  "viewingStatus": "watched",
+  "dateWatched": null,
+  "personalRating": null,
+  "review": null,
+  "favouriteScene": "The eccentric hospital conversations and Sattu Bhaiya's unexpected vulnerability.",
+  "favouritePerformance": "Pankaj Tripathi as Sattu Bhaiya & Abhishek Bachchan as Bittu",
+  "themes": [
+    "Chance & Synchronicity",
+    "Morality & Redemption",
+    "Absurdity of Life"
+  ],
+  "personalReflections": "Four distinct color-coded stories woven together by randomness and fate, reflecting how human paths collide in ways no individual can calculate.",
+  "posterPalette": "ludo-quad",
+  "isFavourite": true
+}

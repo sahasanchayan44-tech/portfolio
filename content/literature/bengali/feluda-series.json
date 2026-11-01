@@ -1,0 +1,25 @@
+{
+  "id": "feluda-series",
+  "title": "The Complete Adventures of Feluda",
+  "author": "Satyajit Ray",
+  "originalLanguage": "Bengali",
+  "category": "bengali",
+  "genre": [
+    "Detective Fiction",
+    "Mystery & Adventure",
+    "Bengali Heritage"
+  ],
+  "status": "read",
+  "readingDate": null,
+  "personalRating": null,
+  "personalReview": null,
+  "notes": "Ray's iconic sleuth Prodosh C. Mitter. Masters of deduction, atmospheric travel across Indian historical landmarks, and narrative pacing without gratuitous violence.",
+  "memorablePassages": [
+    "Observation without deduction is mere sight; deduction turns sight into perception."
+  ],
+  "coverPalette": "crimson",
+  "relatedBooks": [
+    "shonku-adventures"
+  ],
+  "isFavourite": true
+}

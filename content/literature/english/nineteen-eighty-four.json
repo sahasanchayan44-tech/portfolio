@@ -1,0 +1,25 @@
+{
+  "id": "nineteen-eighty-four",
+  "title": "1984",
+  "author": "George Orwell",
+  "originalLanguage": "English",
+  "category": "english",
+  "genre": [
+    "Political Dystopia",
+    "Psychology of Power",
+    "Speculative Fiction"
+  ],
+  "status": "read",
+  "readingDate": null,
+  "personalRating": null,
+  "personalReview": null,
+  "notes": "A chilling investigation into language manipulation (Newspeak), psychological terror, doublethink, and the total subjugation of interior truth to state doctrine.",
+  "memorablePassages": [
+    "Freedom is the freedom to say that two plus two make four. If that is granted, all else follows."
+  ],
+  "coverPalette": "concrete",
+  "relatedBooks": [
+    "the-trial"
+  ],
+  "isFavourite": true
+}

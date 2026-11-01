@@ -1,0 +1,29 @@
+{
+  "id": "maqbool",
+  "title": "Maqbool",
+  "director": "Vishal Bhardwaj",
+  "releaseYear": 2003,
+  "country": "India",
+  "language": "Hindi",
+  "category": "indian",
+  "genre": [
+    "Crime Drama",
+    "Psychological Thriller",
+    "Shakespearean Adaptation"
+  ],
+  "viewingStatus": "watched",
+  "dateWatched": null,
+  "personalRating": null,
+  "review": null,
+  "favouriteScene": "The bloodstain on the floor that Maqbool frantically scrubs, echoing Lady Macbeth's guilt in a sea-facing Mumbai apartment.",
+  "favouritePerformance": "Pankaj Kapur as Abbaji & Irrfan Khan as Maqbool & Naseeruddin Shah as Inspector Purohit",
+  "themes": [
+    "Guilt & Conscience",
+    "Ambition & Treachery",
+    "Fate vs Free Will",
+    "Power Dynamics"
+  ],
+  "personalReflections": "Adapting Macbeth into the Mumbai underworld with profound psychological weight. The supernatural witches transformed into corrupt astrology-obsessed police officers is pure genius.",
+  "posterPalette": "blood-noir",
+  "isFavourite": true
+}

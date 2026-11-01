@@ -1,0 +1,26 @@
+{
+  "id": "crime-and-punishment",
+  "title": "Crime and Punishment",
+  "author": "Fyodor Dostoevsky",
+  "originalLanguage": "Russian",
+  "category": "english",
+  "genre": [
+    "Psychological Fiction",
+    "Moral Philosophy",
+    "Classic Literature"
+  ],
+  "status": "read",
+  "readingDate": null,
+  "personalRating": null,
+  "personalReview": null,
+  "notes": "An unrelenting psychological dissection of intellectual arrogance, guilt, conscience, and spiritual rebirth. Raskolnikov's feverish mental landscape remains unmatched.",
+  "memorablePassages": [
+    "Pain and suffering are always inevitable for a large intelligence and a deep heart. The really great men must, I think, have great sadness on earth."
+  ],
+  "coverPalette": "burgundy",
+  "relatedBooks": [
+    "notes-from-underground",
+    "the-trial"
+  ],
+  "isFavourite": true
+}

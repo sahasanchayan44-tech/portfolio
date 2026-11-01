@@ -1,0 +1,26 @@
+{
+  "id": "gora",
+  "title": "Gora",
+  "author": "Rabindranath Tagore",
+  "originalLanguage": "Bengali",
+  "category": "bengali",
+  "genre": [
+    "Philosophical Fiction",
+    "Identity & Nationhood",
+    "Social Drama"
+  ],
+  "status": "read",
+  "readingDate": null,
+  "personalRating": null,
+  "personalReview": null,
+  "notes": "Tagore's epic exploration of orthodoxy, individual conscience, religious dogma, and identity in colonial Bengal. A deeply psychological study of fanaticism confronting unconditional humanity.",
+  "memorablePassages": [
+    "Today I am truly an Indian. Within me there is no conflict between communities; today every single community is my own."
+  ],
+  "coverPalette": "terracotta",
+  "relatedBooks": [
+    "galpaguchchha",
+    "srikanta"
+  ],
+  "isFavourite": true
+}

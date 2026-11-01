@@ -1,0 +1,92 @@
+[
+  {
+    "id": "naseeruddin-shah",
+    "name": "Naseeruddin Shah",
+    "type": "actor",
+    "primaryTradition": "Parallel & Contemporary Indian Cinema, Theatre",
+    "admiredQualities": "Uncompromising authenticity, razor-sharp diction, and the ability to convey profound moral cynicism or deep tenderness with equal mastery.",
+    "notableMentions": [
+      "Maqbool",
+      "Jaane Bhi Do Yaaro",
+      "Sparsh",
+      "A Wednesday!"
+    ]
+  },
+  {
+    "id": "nawazuddin-siddiqui",
+    "name": "Nawazuddin Siddiqui",
+    "type": "actor",
+    "primaryTradition": "Independent & Mainstream Indian Cinema",
+    "admiredQualities": "Fierce, grounded realism, expressive eyes that communicate lifetimes of struggle, and an unmatched capacity to portray obsessive human endurance.",
+    "notableMentions": [
+      "Manjhi: The Mountain Man",
+      "The Lunchbox",
+      "Gangs of Wasseypur",
+      "Raman Raghav 2.0"
+    ]
+  },
+  {
+    "id": "aamir-khan",
+    "name": "Aamir Khan",
+    "type": "actor",
+    "primaryTradition": "Hindi Cinema, Socially Conscious Storytelling",
+    "admiredQualities": "Meticulous commitment to narrative craft, conviction in character transformation, and championing substantive human themes within popular cinema.",
+    "notableMentions": [
+      "Taare Zameen Par",
+      "Dangal",
+      "Lagaan",
+      "3 Idiots"
+    ]
+  },
+  {
+    "id": "robert-downey-jr",
+    "name": "Robert Downey Jr.",
+    "type": "actor",
+    "primaryTradition": "International Cinema, Character Studies, Modern Franchise",
+    "admiredQualities": "Charismatic vulnerability, rapid-fire intellectual wit, and the rare ability to bring layered emotional pathos to larger-than-life roles.",
+    "notableMentions": [
+      "Chaplin",
+      "Oppenheimer",
+      "Iron Man / MCU Arc",
+      "Zodiac"
+    ]
+  },
+  {
+    "id": "jake-gyllenhaal",
+    "name": "Jake Gyllenhaal",
+    "type": "actor",
+    "primaryTradition": "International Cinema, Psychological Dramas",
+    "admiredQualities": "Fearless exploration of morally complex, unhinged, or psychologically fractured characters with total somatic commitment.",
+    "notableMentions": [
+      "Nightcrawler",
+      "Prisoners",
+      "Enemy",
+      "Brokeback Mountain"
+    ]
+  },
+  {
+    "id": "jim-carrey",
+    "name": "Jim Carrey",
+    "type": "actor",
+    "primaryTradition": "International Cinema, Tragicomic Drama, Satire",
+    "admiredQualities": "A genius of physical expression who reveals profound existential heartbreak, loneliness, and vulnerability beneath manic comedic energy.",
+    "notableMentions": [
+      "The Truman Show",
+      "Eternal Sunshine of the Spotless Mind",
+      "Man on the Moon"
+    ]
+  },
+  {
+    "id": "johnny-depp",
+    "name": "Johnny Depp",
+    "type": "actor",
+    "primaryTradition": "International Cinema, Gothic & Eccentric Storytelling",
+    "admiredQualities": "Eccentric poetic grace, complete physical transformation, and empathy for outsiders, dreamers, and outcasts.",
+    "notableMentions": [
+      "Edward Scissorhands",
+      "What's Eating Gilbert Grape",
+      "Dead Man",
+      "Donnie Brasco"
+    ]
+  }
+]

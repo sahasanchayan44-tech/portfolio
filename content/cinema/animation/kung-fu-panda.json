@@ -1,0 +1,29 @@
+{
+  "id": "kung-fu-panda",
+  "title": "Kung Fu Panda",
+  "director": "John Stevenson, Mark Osborne",
+  "releaseYear": 2008,
+  "country": "United States",
+  "language": "English",
+  "category": "animation",
+  "genre": [
+    "Animation",
+    "Philosophical Action",
+    "Character-Driven Narrative"
+  ],
+  "viewingStatus": "watched",
+  "dateWatched": null,
+  "personalRating": null,
+  "review": null,
+  "favouriteScene": "Master Oogway's peach tree conversation: 'Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.'",
+  "favouritePerformance": "Jack Black as Po & Dustin Hoffman as Shifu",
+  "themes": [
+    "Self-Acceptance",
+    "Inner Peace",
+    "Mentorship",
+    "The Myth of Special Ingredients"
+  ],
+  "personalReflections": "Often dismissed as a children's comedy, it possesses deeper Daoist philosophical clarity than most adult dramas. There is no secret ingredient—the power is in embracing reality as it is.",
+  "posterPalette": "jade-gold",
+  "isFavourite": true
+}

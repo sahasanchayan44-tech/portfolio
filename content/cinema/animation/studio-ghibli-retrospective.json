@@ -1,0 +1,28 @@
+{
+  "id": "studio-ghibli-retrospective",
+  "title": "Spirited Away & Studio Ghibli Works",
+  "director": "Hayao Miyazaki",
+  "releaseYear": 2001,
+  "country": "Japan",
+  "language": "Japanese",
+  "category": "animation",
+  "genre": [
+    "Hand-Drawn Animation",
+    "Mythology & Memory",
+    "Visual Poetry"
+  ],
+  "viewingStatus": "watched",
+  "dateWatched": null,
+  "personalRating": null,
+  "review": null,
+  "favouriteScene": "The sixth station train ride across the flooded sea in absolute stillness.",
+  "favouritePerformance": "Joe Hisaishi (Score)",
+  "themes": [
+    "Ma (Negative Space & Stillness)",
+    "Memory & Identity",
+    "Transition into Adulthood"
+  ],
+  "personalReflections": "Miyazaki's mastery of 'Ma'—the intentional quiet spaces where characters simply breathe, watch water, or sit silently—teaches that pacing is an act of respect for the audience.",
+  "posterPalette": "bathhouse-azure",
+  "isFavourite": true
+}
